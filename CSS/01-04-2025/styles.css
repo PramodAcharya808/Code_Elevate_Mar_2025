@@ -1,0 +1,63 @@
+/* * {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navBar{
+  background-color: rgb(190, 190, 190);
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-size: 18px;
+  margin-right: 20px;
+  background-color: rgb(233, 255, 255);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+#shiva {
+  font-weight: 900;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+#bio {
+  line-height: 4;
+} */
+
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navBar {
+  background-color: rgb(190, 190, 190);
+  padding: 15px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-size: 18px;
+  margin-right: 20px;
+  background-color: rgb(233, 255, 255);
+  padding: 5px;
+  border: 1px solid black;
+}
+
+#shiva {
+  font-weight: 900;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+#bio {
+  line-height: 2;
+}

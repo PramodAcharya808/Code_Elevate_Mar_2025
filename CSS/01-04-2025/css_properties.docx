@@ -1,0 +1,56 @@
+COLOR PROPERTIES (text)
+
+color: red;
+color: green;
+color: blue;
+color: alpha;
+
+Background Color (background)
+
+background: red;
+background: green;
+background: blue;
+background: #FFHHG7;
+
+Color system
+
+RGB color system (Red, Green, Blue)
+  color: rgb(50, 200, 119)
+HEX color system
+  color: #32C877
+
+
+TEXT PROPERTIES (adding properties to the text)
+
+text-align: left/right/center;
+
+text-decoration: underline/overline/line-through/none
+
+
+FONT WEIGHTS
+
+font-weight: bold/bolder/lighter/normal
+
+font-weight: 100 - 900;
+
+FONT FAMILY
+
+font-family: arial/roboto/geneva
+
+
+LINE HIGHT
+
+line-height: 10px;
+
+TEXT TRANSFORMATION
+
+text-transform: uppercase/lowercase/capitalize/none
+
+---------------------------------------
+UNITS IN CSS (right now use Pixel (px))
+
+Browser has default font size 18px
+
+Absolute units in CSS
+  - 1 Pixel = 1 inch = 2.54 cm
+

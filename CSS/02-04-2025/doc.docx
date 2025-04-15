@@ -1,0 +1,32 @@
+MORE UNITS IN CSS
+
+px = pixel //
+rem //
+em //
+% //
+vh = virtical hight //
+vw = virtical width //
+
+width = 1rem = 1 x 16px = 16px
+width = 2rem = 2 x 16px = 32px
+
+--------------
+
+width/hight = %/vh/vw
+font-size = rem
+
+--------------
+
+PADDING & MARGIN
+
+padding: 10px
+- top
+- bottom
+- left 
+- right
+
+margin: 10px 
+- top
+- bottom
+- left 
+- right

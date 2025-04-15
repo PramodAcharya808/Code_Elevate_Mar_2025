@@ -1,0 +1,47 @@
+3 things
+
+- selector (id="heading1")
+- property (color)
+- value (red, green, blue, teal, #FBBC04)
+
+Basic Syntax
+
+selector{
+  property: value;
+}
+
+Selectors
+Element selector
+h1{
+  color: #FBBC04;
+}
+
+Class selector
+.myclass{
+  color: #FBBC04;
+}
+
+ID selector
+#myId{
+  color: #FBBC04;
+}
+
+Universal selector
+*{
+  font-size: 18px;
+}
+
+Types of css
+
+- Inline CSS
+- Internal CSS
+- External CSS
+
+Inline CSS > ID > Class
+
+myclass
+Myclass
+myClass = class names (camel case)
+my_class = id names (underscore case)
+my-class = (kebab case)
+MYCLASS

@@ -1,0 +1,73 @@
+TRANSITIONS & ANIMATIONS
+------------------------
+
+Transition = state1 -> state2 (active)
+
+Pseudo Classes
+--------------
+
+hover
+active
+
+Key Points in Transition
+------------------------
+
+transition-property: all/font-size/background-color
+
+transition-duration: 2s
+
+transition-timing-function: ease-in/ease-out/ease/ease-in-out/linear/step-start/step-end
+
+transtion-delay: 2s
+
+transition: property-name | duration | timing-function | delay
+
+transition: all 1s ease-in 0
+
+TRANSFORM
+
+tranform: rotate/scale/translate/skew;
+rotate: 45 deg;
+rotate x: 45 deg;
+rotate y: 45 deg;
+rotate z: 45 deg;
+
+transform: scale(1) 1> | <1
+transform: scale x(2)
+transform: scale y(2)
+
+-------------
+
+transform: translate(20px)
+transform: translate X(20px)
+transform: translate Y(20px)
+
+-------------
+
+transform: skew(45 deg)
+
+ANIMATIONS
+----------
+
+1. Create animation rules
+2. Set Animation Properties
+
+@keyframe animation_name1{
+  from {
+    transform: rotate(0);
+    color: red;
+    }
+  to {
+    transform: rotate(360deg);
+    color: green
+    }
+}
+
+animation-name: animation_name1;
+animation-duration: 3s;
+animation-timing-function: ease-in;
+animation-delay: 1s;
+animation-iteration-count: infinity
+animation-direction: normal/reverse/alternate/alternate-re
+
+animation: anim_name duration timing_function delay interation_count direction

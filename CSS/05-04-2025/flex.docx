@@ -1,0 +1,22 @@
+FLEX BOX
+
+display: flex
+
+FLEX DIRECTION PROP's
+---------------------
+
+flex-direction: row (default)
+flex-direction: row-reverse
+flex-direction: column
+flex-direction: column-reverse
+
+MORE FLEX PROP's
+----------------
+
+justify-content: space-evenly/space/between/space-arround/center (horizontal direction)
+
+align-items: flex-start/flex-end/center/basline/stretch/default (vertical direction)
+
+------------------
+
+flex-wrap: wrap/wrap-reverse
