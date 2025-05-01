@@ -10,3 +10,5 @@ function loadImage(url, callback) {
 loadImage("https://picsum.photos/200/300", function () {
   console.log("Image loaded");
 });
+// Pyramid of doom
+// call back hell

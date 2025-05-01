@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-box">
+        <input
+          type="number"
+          id="userId"
+          placeholder="Enter user ID (1-10)"
+          min="1"
+          max="10"
+        />
+        <button onclick="searchUser()">Search</button>
+      </div>
+
+      <!-- Add loader element -->
+      <div class="loader" id="loader"></div>
+
+      <div class="user-card" id="userCard">
+        <h2 id="userName"></h2>
+        <div class="user-info">
+          <p id="userEmail"></p>
+          <p id="userPhone"></p>
+          <p id="userWebsite"></p>
+          <p id="userCompany"></p>
+          <p id="userAddress"></p>
+        </div>
+      </div>
+
+      <p class="error-message" id="errorMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
