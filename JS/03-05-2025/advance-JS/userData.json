@@ -1,0 +1,59 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "What is JavaScript?",
+      "options": [
+        "A programming language",
+        "A markup language",
+        "A styling language",
+        "A database"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Model",
+        "Digital Object Memory",
+        "Document Oriented Module"
+      ],
+      "correctAnswer": "Document Object Model"
+    },
+    {
+      "id": 3,
+      "question": "Which operator is used for strict equality comparison in JavaScript?",
+      "options": [
+        "==",
+        "===",
+        "=",
+        "!="
+      ],
+      "correctAnswer": "==="
+    },
+    {
+      "id": 4,
+      "question": "What is the purpose of the 'let' keyword in JavaScript?",
+      "options": [
+        "To declare constants",
+        "To declare block-scoped variables",
+        "To declare global variables",
+        "To declare functions"
+      ],
+      "correctAnswer": "To declare block-scoped variables"
+    },
+    {
+      "id": 5,
+      "question": "What is a closure in JavaScript?",
+      "options": [
+        "A way to close the browser",
+        "A function that has access to variables in its outer scope",
+        "A method to end a loop",
+        "A way to close a database connection"
+      ],
+      "correctAnswer": "A function that has access to variables in its outer scope"
+    }
+  ]
+}

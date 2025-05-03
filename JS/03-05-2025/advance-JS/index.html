@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Storage Demo</title>
+    <style>
+      .container {
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .btn {
+        margin: 5px;
+        padding: 8px 15px;
+        cursor: pointer;
+      }
+      #displayUsername {
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #f0f0f0;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Local Storage Management</h2>
+
+      <div>
+        <input type="text" id="usernameInput" placeholder="Enter username" />
+        <button class="btn" onclick="saveUsername()">Save Username</button>
+      </div>
+
+      <div>
+        <button class="btn" onclick="showUsername()">Show Username</button>
+        <div id="displayUsername"></div>
+      </div>
+
+      <div>
+        <button class="btn" onclick="deleteUsername()">Delete Username</button>
+        <button class="btn" onclick="clearStorage()">Clear All Storage</button>
+      </div>
+    </div>
+
+    <script>
+      function saveUsername() {
+        const username = document.getElementById("usernameInput").value;
+        if (username.trim() !== "") {
+          localStorage.setItem("userName", username);
+          alert("Username saved successfully!");
+          document.getElementById("usernameInput").value = "";
+        } else {
+          alert("Please enter a username");
+        }
+      }
+
+      function showUsername() {
+        const display = document.getElementById("displayUsername");
+        const username = localStorage.getItem("userName");
+        if (username) {
+          display.textContent = `Stored Username: ${username}`;
+          display.style.display = "block";
+        } else {
+          display.textContent = "No username stored";
+          display.style.display = "block";
+        }
+      }
+
+      function deleteUsername() {
+        if (localStorage.getItem("userName")) {
+          localStorage.removeItem("userName");
+          document.getElementById("displayUsername").style.display = "none";
+          alert("Username deleted successfully!");
+        } else {
+          alert("No username found to delete");
+        }
+      }
+
+      function clearStorage() {
+        if (confirm("Are you sure you want to clear all local storage data?")) {
+          localStorage.clear();
+          document.getElementById("displayUsername").style.display = "none";
+          alert("Local storage cleared successfully!");
+        }
+      }
+    </script>
+  </body>
+</html>
