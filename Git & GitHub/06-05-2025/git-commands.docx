@@ -1,0 +1,48 @@
+CMD 1:
+
+used to set username and email for authentication
+
+git config --global user.name PramodAcharya808
+git config --global user.email pramodacharya808@gmail.com
+
+
+CMD 2: 
+
+used to confirm the username and email
+
+git config --global user.name
+git config --global user.email
+
+CMD 3:
+Initialize git in desitination folder
+
+git init
+ls -lart
+
+CMD 4:
+
+to check the current status of the repository
+
+git status
+
+
+CMD 5:
+
+to add the files to git index (staging)
+
+git add index.html (to add a single file to index)
+git add assets/ (to add a folder to index)
+git add -A (to add all the files in the destination folder to index/staging)
+git add --all (to add all the files in 1 go)
+git add . (adds everything to index)
+
+
+CMD 6: 
+
+to commit the files to git unmodified area from staging/index
+
+git commit (used to commit all the files in the repo)
+git commit -m "commit message" (used to commit and add note in 1 single cmd)
+git commit -a -m "commit message" (used to add, commit, and add message in 1 single cmd)
+
+git commit -am "commit message"
