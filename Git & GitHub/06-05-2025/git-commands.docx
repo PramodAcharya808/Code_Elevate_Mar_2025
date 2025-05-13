@@ -46,3 +46,51 @@ git commit -m "commit message" (used to commit and add note in 1 single cmd)
 git commit -a -m "commit message" (used to add, commit, and add message in 1 single cmd)
 
 git commit -am "commit message"
+
+CMD 7:
+
+to revert changed of a file to previous commit
+
+git checkout filename.html (to revert changes of a file to previous commit )
+git checkout -f (to revert changes of all the files to previous commit )
+
+CMD 8: 
+
+to get the logs
+
+git log (gets all the logs)
+git log -p -1 (gets particular number of logs)
+
+CMD 9:
+
+to see the difference of your current working with previous commit
+
+git diff
+
+CMD 10: 
+
+minimalitic status
+
+git status -s
+
+----
+Untility feature:
+
+.gitignore (add this file along with files and folders names in your repo to ignore files and folders from git)
+
+CMD 11: 
+all about branchs
+
+git branch new-branch-name (creating branch)
+git branch (to see all the available branches)
+git checkout branch-name (to switch the branch)
+git merge branch-name (merge changes into current branch)
+
+CMD 12:
+
+GitHub
+
+git remote add origin remote-link.git (used to create & add new remote)
+git push origin master-copy (push the local changes into ur remote repo)
+git clone ssh/https-repo-link.git (copying a repo into your machine)
+git fetch origin -a (fetch all the changes of the branch)
