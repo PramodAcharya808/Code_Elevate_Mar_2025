@@ -1,0 +1,45 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.mainBg {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.light {
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+.dark {
+  background-color: #2e2e2e;
+  color: #f2f2f2;
+}
+
+.toggleThemeBtnLight {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #ddd;
+  color: #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  border: transparent;
+}
+
+.toggleThemeBtnDark {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #2f2f2f;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: transparent;
+}
