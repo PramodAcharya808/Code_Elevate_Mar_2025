@@ -1,11 +1,19 @@
 import express from "express";
 import "dotenv/config";
 import dbConnect from "./utils/dbConnect.js";
+import cors from "cors";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 const API_VERSION = process.env.API_VERSION || "api/v1";
 
+// cors middleware to comminicate with http://localhost:5173/
+
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+  })
+);
 app.use(express.json());
 
 // heatl check route
